@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Averon | Premium 3D Digital Agency</title>
+    <meta
+      name="description"
+      content="Averon premium digital agency template with immersive 3D depth, refined motion, and a polished innovation-led brand presence."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas class="particle-canvas" aria-hidden="true"></canvas>
+
+    <div class="ambient ambient-a" aria-hidden="true"></div>
+    <div class="ambient ambient-b" aria-hidden="true"></div>
+    <div class="ambient ambient-c" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="shell nav-shell glass-panel">
+        <a class="brand" href="#home">
+          <img class="brand-logo" src="assets/averon-logo.png" alt="Averon logo" />
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#testimonials">Voices</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="button button-ghost button-sm" href="#contact">Book a Strategy Call</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero shell">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">
+            <span class="eyebrow-line"></span>
+            Driven by Innovation
+          </span>
+          <h1>
+            Build Modern Websites That Turn Visitors Into Clients
+          </h1>
+          <p class="hero-text">
+            We design and develop clean, high-performing websites that help
+            businesses grow, build trust, and stand out online.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Get Started</a>
+            <a class="button button-ghost" href="#portfolio">View Projects</a>
+          </div>
+
+          <div class="hero-metrics glass-panel reveal">
+            <div>
+              <strong>48</strong>
+              <span>Global launches</span>
+            </div>
+            <div>
+              <strong>11x</strong>
+              <span>Avg. growth lift</span>
+            </div>
+            <div>
+              <strong>96%</strong>
+              <span>Client retention</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal" aria-hidden="true">
+          <div class="stage-frame glass-panel">
+            <div class="stage-glow"></div>
+            <div class="parallax-layer stage-ring ring-back"></div>
+            <div class="parallax-layer stage-ring ring-front"></div>
+
+            <div class="orbital-card glass-panel orbit-card orbit-card-a">
+              <span class="chip">Innovation First</span>
+              <p>Brand systems designed for forward-looking companies and smart products.</p>
+            </div>
+
+            <div class="orbital-card glass-panel orbit-card orbit-card-b">
+              <span class="chip">Confident Launches</span>
+              <p>Digital experiences that turn credibility into trust and momentum.</p>
+            </div>
+
+            <div class="orbital-card glass-panel orbit-card orbit-card-c">
+              <span class="chip">Premium Presence</span>
+              <p>Clean, polished interfaces with depth, clarity, and executive-level finish.</p>
+            </div>
+
+            <div class="hero-object parallax-layer">
+              <div class="hero-object-shadow"></div>
+              <div class="hero-object-core">
+                <div class="hero-object-spec hero-object-spec-a"></div>
+                <div class="hero-object-spec hero-object-spec-b"></div>
+                <div class="hero-object-spec hero-object-spec-c"></div>
+                <div class="hero-object-shell hero-object-shell-a"></div>
+                <div class="hero-object-shell hero-object-shell-b"></div>
+                <div class="hero-object-ring"></div>
+                <div class="hero-object-ring hero-object-ring-secondary"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell" id="services">
+        <div class="section-heading reveal">
+          <span class="eyebrow">
+            <span class="eyebrow-line"></span>
+            Our Services
+          </span>
+          <h2>Website Services Designed to Help Your Business Grow</h2>
+          <p class="section-subtext">
+            We design and build modern, high-performing websites that not only look
+            premium but also help you attract clients, build trust, and grow online.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card glass-panel tilt-card reveal">
+            <span class="service-icon"></span>
+            <h3>Modern Website Design</h3>
+            <p>
+              We design clean, professional websites enhanced with modern visuals
+              and subtle 3D elements to help your business stand out and build
+              trust.
+            </p>
+            <div class="service-fit">Best for: businesses that need a strong online presence</div>
+          </article>
+
+          <article class="service-card glass-panel tilt-card reveal">
+            <span class="service-icon"></span>
+            <h3>High-Converting Landing Pages</h3>
+            <p>
+              Landing pages designed to capture attention, guide visitors, and turn
+              them into real client inquiries using smart structure and engaging
+              visuals.
+            </p>
+            <div class="service-fit">Best for: ads, campaigns, and lead generation</div>
+          </article>
+
+          <article class="service-card glass-panel tilt-card reveal">
+            <span class="service-icon"></span>
+            <h3>User Experience &amp; Interface Design</h3>
+            <p>
+              We create intuitive, user-friendly designs that improve usability,
+              keep visitors engaged, and make your website easy to navigate.
+            </p>
+            <div class="service-fit">Best for: improving performance and user experience</div>
+          </article>
+        </div>
+
+        <p class="services-note reveal">
+          Every project is built with performance, clarity, and conversion in mind.
+        </p>
+      </section>
+
+      <section class="section shell" id="portfolio">
+        <div class="section-heading reveal">
+          <span class="eyebrow">
+            <span class="eyebrow-line"></span>
+            Selected Work
+          </span>
+          <h2>Portfolio previews with motion-ready layouts and hover-driven depth.</h2>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card glass-panel reveal">
+            <div class="portfolio-visual portfolio-visual-a">
+              <div class="portfolio-badge">AI Platform</div>
+            </div>
+            <div class="portfolio-copy">
+              <h3>Synapse OS</h3>
+              <p>Spatial product marketing system for an enterprise AI workspace.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card glass-panel reveal featured">
+            <div class="portfolio-visual portfolio-visual-b">
+              <div class="portfolio-badge">Luxury Commerce</div>
+            </div>
+            <div class="portfolio-copy">
+              <h3>Vanta Atelier</h3>
+              <p>Editorial e-commerce experience with sculpted layouts and fluid reveals.</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card glass-panel reveal">
+            <div class="portfolio-visual portfolio-visual-c">
+              <div class="portfolio-badge">Future Mobility</div>
+            </div>
+            <div class="portfolio-copy">
+              <h3>Nova Drive</h3>
+              <p>Performance launch site pairing motion graphics with premium UI depth.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section shell testimonial-section" id="testimonials">
+        <div class="section-heading reveal">
+          <span class="eyebrow">
+            <span class="eyebrow-line"></span>
+            Client Voices
+          </span>
+          <h2>Built for brands that want sharp strategy and unmistakable visual gravity.</h2>
+        </div>
+
+        <div class="testimonial-layout">
+          <article class="testimonial-card glass-panel tilt-card reveal">
+            <p>
+              “They gave our AI brand the presence of a category leader before the
+              market knew how to describe us.”
+            </p>
+            <div class="testimonial-meta">
+              <strong>Alina Park</strong>
+              <span>Chief Marketing Officer, Luma Grid</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card glass-panel tilt-card reveal">
+            <p>
+              “Every interaction feels expensive. The motion, the depth, the clarity,
+              it all signals confidence before a word is read.”
+            </p>
+            <div class="testimonial-meta">
+              <strong>Marcus Vale</strong>
+              <span>Founder, Hexa Labs</span>
+            </div>
+          </article>
+
+          <div class="testimonial-summary glass-panel reveal">
+            <span class="chip">Trusted by scaling teams</span>
+            <h3>Strategy, brand, and launch design unified into one premium system.</h3>
+            <p>
+              This section is styled to feel modern and credible, with spacing,
+              typography, and composition tuned for high-value creative brands.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell contact-section" id="contact">
+        <div class="contact-layout glass-panel reveal">
+          <div class="contact-copy">
+            <span class="eyebrow">
+              <span class="eyebrow-line"></span>
+              Let’s Build Something Magnetic
+            </span>
+            <h2>Craft a digital presence that looks future-ready and sells premium value.</h2>
+            <p>
+              Use this contact section as the conversion endpoint for your agency
+              template, startup landing page, or luxury product launch.
+            </p>
+
+            <div class="contact-points">
+              <div>
+                <strong>Response Window</strong>
+                <span>Within 24 hours</span>
+              </div>
+              <div>
+                <strong>Engagement Type</strong>
+                <span>Brand, web, launch systems</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#">
+            <label>
+              <span>Name</span>
+              <input type="text" placeholder="Avery Quinn" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" placeholder="hello@company.com" />
+            </label>
+            <label>
+              <span>Project Scope</span>
+              <input type="text" placeholder="Premium AI launch site" />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea rows="5" placeholder="Tell us what you want to build."></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Start the Conversation</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <a class="footer-brand" href="#home" aria-label="Averon home">
+        <img class="footer-logo" src="assets/averon-logo.png" alt="Averon logo" />
+      </a>
+      <p>Premium digital experiences for agency, AI, and innovation-led brands.</p>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

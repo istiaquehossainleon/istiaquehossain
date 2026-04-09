@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Averon | Vibrant School Website</title>
+    <meta
+      name="description"
+      content="BrightFuture Academy is a vibrant school community where students learn, explore, and grow through engaging academics, creative activities, and supportive mentoring."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header" id="top">
+        <nav class="navbar container">
+          <a class="brand" href="#top" aria-label="Averon home">
+            <img
+              class="brand-logo"
+              src="assets/averon-logo.png"
+              alt="Averon logo"
+            />
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-menu" id="nav-menu">
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#events">Events</a>
+            <a href="#contact">Contact</a>
+            <a class="button button-small" href="#contact">Book a Visit</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-bg hero-bg-left"></div>
+          <div class="hero-bg hero-bg-right"></div>
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <div class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                Learning with joy, creativity, and confidence
+              </div>
+              <h1>A school where every day feels full of discovery.</h1>
+              <p>
+                BrightFuture Academy blends strong academics, warm mentoring,
+                and a lively campus culture to help children grow into curious,
+                confident, and compassionate learners.
+              </p>
+
+              <div class="hero-actions">
+                <a class="button" href="#programs">Explore Programs</a>
+                <a class="button button-secondary" href="#gallery"
+                  >Take a Campus Tour</a
+                >
+              </div>
+
+              <div class="hero-badges">
+                <div class="badge-card">
+                  <strong>Top 5%</strong>
+                  <span>Regional academic performance</span>
+                </div>
+                <div class="badge-card">
+                  <strong>40+</strong>
+                  <span>Clubs, sports, and creative activities</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual reveal">
+              <div class="hero-collage">
+                <article class="photo-card photo-main">
+                  <img
+                    src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80"
+                    alt="Teacher helping students in a bright classroom"
+                  />
+                  <div class="photo-overlay">
+                    <span>Interactive classrooms</span>
+                    <strong>Project-based learning in every grade</strong>
+                  </div>
+                </article>
+
+                <article class="photo-card photo-top">
+                  <img
+                    src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80"
+                    alt="Students collaborating in a school workshop"
+                  />
+                </article>
+
+                <article class="photo-card photo-bottom">
+                  <img
+                    src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=80"
+                    alt="Students smiling outdoors during a school activity"
+                  />
+                </article>
+
+                <div class="floating-card card-yellow">
+                  <span>98%</span>
+                  <p>Parents rate our learning environment as welcoming</p>
+                </div>
+
+                <div class="floating-card card-blue">
+                  <span>16:1</span>
+                  <p>Student-to-teacher ratio for personal attention</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="highlights section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="section-kicker">Why families choose us</p>
+              <h2>Big opportunities, caring support, and a campus full of life.</h2>
+            </div>
+
+            <div class="stats-grid">
+              <article class="stat-card reveal accent-blue">
+                <div class="stat-number" data-counter="1800">0</div>
+                <p>Students thriving across primary, middle, and senior years</p>
+              </article>
+              <article class="stat-card reveal accent-yellow">
+                <div class="stat-number" data-counter="96">0</div>
+                <p>Graduation success rate with university-ready preparation</p>
+              </article>
+              <article class="stat-card reveal accent-green">
+                <div class="stat-number" data-counter="72">0</div>
+                <p>National and regional awards in sports, robotics, and arts</p>
+              </article>
+              <article class="stat-card reveal accent-orange">
+                <div class="stat-number" data-counter="28">0</div>
+                <p>Modern learning spaces, labs, studios, and activity zones</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="about section" id="about">
+          <div class="container about-grid">
+            <div class="about-media reveal">
+              <div class="about-stack">
+                <img
+                  class="about-large"
+                  src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80"
+                  alt="Students learning together in class"
+                />
+                <img
+                  class="about-small"
+                  src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=900&q=80"
+                  alt="Student presenting in front of class"
+                />
+              </div>
+            </div>
+
+            <div class="about-copy reveal">
+              <p class="section-kicker">About BrightFuture</p>
+              <h2>Learning that feels joyful, purposeful, and deeply human.</h2>
+              <p>
+                Our school creates a warm and inspiring environment where
+                children build strong academic foundations while also exploring
+                creativity, leadership, and social confidence. Every corner of
+                campus is designed to feel safe, active, and welcoming.
+              </p>
+
+              <div class="about-features">
+                <div class="feature-pill">
+                  <strong>Future-ready curriculum</strong>
+                  <span>STEM, literacy, arts, and hands-on projects</span>
+                </div>
+                <div class="feature-pill">
+                  <strong>Whole-child support</strong>
+                  <span>Mentoring, wellbeing care, and student leadership</span>
+                </div>
+                <div class="feature-pill">
+                  <strong>Vibrant school life</strong>
+                  <span>Events, clubs, performances, and family engagement</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="programs section" id="programs">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="section-kicker">Academic programs</p>
+              <h2>Colorful pathways that help every learner shine.</h2>
+              <p>
+                From early years to senior preparation, our programs combine
+                curiosity, structure, and memorable learning experiences.
+              </p>
+            </div>
+
+            <div class="program-grid">
+              <article class="program-card reveal">
+                <div class="program-icon icon-blue">EY</div>
+                <h3>Early Years</h3>
+                <p>
+                  Play-based discovery, foundational literacy, and nurturing
+                  routines that build confidence from the start.
+                </p>
+                <span>Creative corners, sensory play, guided exploration</span>
+              </article>
+              <article class="program-card reveal">
+                <div class="program-icon icon-yellow">ST</div>
+                <h3>Primary STEAM</h3>
+                <p>
+                  Inquiry-led science, math storytelling, coding labs, and
+                  collaborative projects that make learning exciting.
+                </p>
+                <span>Robotics, maker labs, experiments, teamwork</span>
+              </article>
+              <article class="program-card reveal">
+                <div class="program-icon icon-green">AR</div>
+                <h3>Arts & Expression</h3>
+                <p>
+                  Music, visual design, drama, and performance experiences that
+                  help students express ideas with confidence.
+                </p>
+                <span>Choir, theatre, painting, digital creativity</span>
+              </article>
+              <article class="program-card reveal">
+                <div class="program-icon icon-orange">GL</div>
+                <h3>Global Leadership</h3>
+                <p>
+                  Debate, service learning, public speaking, and real-world
+                  challenges that prepare students for tomorrow.
+                </p>
+                <span>Leadership labs, community impact, future readiness</span>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery section" id="gallery">
+          <div class="container">
+            <div class="gallery-header reveal">
+              <div>
+                <p class="section-kicker">Campus gallery</p>
+                <h2>Moments that show the heart of school life.</h2>
+              </div>
+              <div class="gallery-controls">
+                <button class="slider-button" type="button" data-gallery-prev>
+                  Prev
+                </button>
+                <button class="slider-button" type="button" data-gallery-next>
+                  Next
+                </button>
+              </div>
+            </div>
+
+            <div class="gallery-frame reveal">
+              <div class="gallery-track" data-gallery-track>
+                <article class="gallery-slide is-active">
+                  <img
+                    src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=1400&q=80"
+                    alt="Students in a school science class"
+                  />
+                  <div class="gallery-caption">
+                    <strong>Discovery Labs</strong>
+                    <span>Hands-on experiments, questions, and teamwork</span>
+                  </div>
+                </article>
+                <article class="gallery-slide">
+                  <img
+                    src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1400&q=80"
+                    alt="Children reading together in a school library"
+                  />
+                  <div class="gallery-caption">
+                    <strong>Bright Library Spaces</strong>
+                    <span>Cozy reading zones and independent learning time</span>
+                  </div>
+                </article>
+                <article class="gallery-slide">
+                  <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80"
+                    alt="Students collaborating on a creative project"
+                  />
+                  <div class="gallery-caption">
+                    <strong>Collaborative Projects</strong>
+                    <span>Creative thinking, communication, and confidence</span>
+                  </div>
+                </article>
+                <article class="gallery-slide">
+                  <img
+                    src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1400&q=80"
+                    alt="Students enjoying a school performance"
+                  />
+                  <div class="gallery-caption">
+                    <strong>Celebrations & Events</strong>
+                    <span>Performances, showcases, and family moments</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="gallery-thumbs reveal" data-gallery-dots>
+              <button class="thumb-dot is-active" type="button" aria-label="Slide 1"></button>
+              <button class="thumb-dot" type="button" aria-label="Slide 2"></button>
+              <button class="thumb-dot" type="button" aria-label="Slide 3"></button>
+              <button class="thumb-dot" type="button" aria-label="Slide 4"></button>
+            </div>
+
+            <div class="gallery-mosaic">
+              <article class="mosaic-card reveal">
+                <img
+                  src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80"
+                  alt="Students painting during an art lesson"
+                />
+                <span>Arts Studio</span>
+              </article>
+              <article class="mosaic-card reveal">
+                <img
+                  src="https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=80"
+                  alt="Students enjoying outdoor school activities"
+                />
+                <span>Outdoor Play</span>
+              </article>
+              <article class="mosaic-card reveal">
+                <img
+                  src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=900&q=80"
+                  alt="Teacher guiding students in a classroom"
+                />
+                <span>Mentored Learning</span>
+              </article>
+              <article class="mosaic-card reveal">
+                <img
+                  src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=900&q=80"
+                  alt="Student writing notes while learning in class"
+                />
+                <span>Focused Growth</span>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="events section" id="events">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="section-kicker">Events & news</p>
+              <h2>Fresh stories, exciting events, and community highlights.</h2>
+            </div>
+
+            <div class="event-grid">
+              <article class="event-card reveal">
+                <div class="event-date">
+                  <strong>14</strong>
+                  <span>APR</span>
+                </div>
+                <div class="event-body">
+                  <span class="event-tag tag-blue">Open House</span>
+                  <h3>Campus discovery day for future families</h3>
+                  <p>
+                    Tour classrooms, meet teachers, and experience our vibrant
+                    learning spaces in person.
+                  </p>
+                </div>
+              </article>
+              <article class="event-card reveal">
+                <div class="event-date">
+                  <strong>19</strong>
+                  <span>APR</span>
+                </div>
+                <div class="event-body">
+                  <span class="event-tag tag-green">Achievement</span>
+                  <h3>Robotics team wins regional innovation challenge</h3>
+                  <p>
+                    Students brought home top honors for teamwork, coding, and
+                    creative problem-solving.
+                  </p>
+                </div>
+              </article>
+              <article class="event-card reveal">
+                <div class="event-date">
+                  <strong>27</strong>
+                  <span>APR</span>
+                </div>
+                <div class="event-body">
+                  <span class="event-tag tag-orange">Festival</span>
+                  <h3>Arts festival featuring music, theater, and design</h3>
+                  <p>
+                    Families are invited to enjoy performances, student art, and
+                    colorful creative showcases.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials section">
+          <div class="container testimonial-wrap reveal">
+            <div class="section-heading">
+              <p class="section-kicker">Family voices</p>
+              <h2>Parents and students describe a place they love to be.</h2>
+            </div>
+
+            <div class="testimonial-slider" data-testimonial-slider>
+              <article class="testimonial-card is-active">
+                <p>
+                  “My daughter feels seen, supported, and inspired every single
+                  day. The balance of academics and creativity is exactly what
+                  we hoped for.”
+                </p>
+                <div class="testimonial-meta">
+                  <strong>Farzana Rahman</strong>
+                  <span>Parent of Grade 4 student</span>
+                </div>
+              </article>
+              <article class="testimonial-card">
+                <p>
+                  “The teachers make learning fun and the campus feels so alive.
+                  I’ve made close friends, joined the science club, and grown so
+                  much in confidence.”
+                </p>
+                <div class="testimonial-meta">
+                  <strong>Adrian S.</strong>
+                  <span>Middle School Student</span>
+                </div>
+              </article>
+              <article class="testimonial-card">
+                <p>
+                  “From communication to care to classroom quality, everything
+                  feels thoughtfully designed around the child. It’s a genuinely
+                  joyful school community.”
+                </p>
+                <div class="testimonial-meta">
+                  <strong>Naila Chowdhury</strong>
+                  <span>Parent Council Member</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="testimonial-dots" data-testimonial-dots>
+              <button class="thumb-dot is-active" type="button" aria-label="Testimonial 1"></button>
+              <button class="thumb-dot" type="button" aria-label="Testimonial 2"></button>
+              <button class="thumb-dot" type="button" aria-label="Testimonial 3"></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact section" id="contact">
+          <div class="container contact-grid">
+            <div class="contact-card reveal">
+              <p class="section-kicker">Visit us</p>
+              <h2>Come see a campus filled with energy and care.</h2>
+              <p>
+                We’d love to welcome your family for a tour, answer your
+                questions, and help you discover the right learning path.
+              </p>
+
+              <div class="contact-list">
+                <div>
+                  <strong>Address</strong>
+                  <span>408/1 (Old KA 66/1), Kuratoli, Khilkhet, Dhaka 1229, Bangladesh, 1229</span>
+                </div>
+                <div>
+                  <strong>Phone</strong>
+                  <span>+8801571504082</span>
+                </div>
+                <div>
+                  <strong>Email</strong>
+                  <span>averon.itservices@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="map-frame">
+                <iframe
+                  title="School location map"
+                  loading="lazy"
+                  src="https://www.google.com/maps?q=school&output=embed"
+                ></iframe>
+              </div>
+            </div>
+
+            <form class="form-card reveal">
+              <h3>Schedule a visit</h3>
+              <label>
+                Parent name
+                <input type="text" placeholder="Enter your name" />
+              </label>
+              <label>
+                Email address
+                <input type="email" placeholder="you@example.com" />
+              </label>
+              <label>
+                Child's grade level
+                <select>
+                  <option>Choose a grade</option>
+                  <option>Early Years</option>
+                  <option>Primary</option>
+                  <option>Middle School</option>
+                  <option>Senior School</option>
+                </select>
+              </label>
+              <label>
+                Message
+                <textarea
+                  rows="4"
+                  placeholder="Tell us what you would like to know"
+                ></textarea>
+              </label>
+              <button class="button" type="submit">Send Inquiry</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-content">
+          <div class="footer-brand">
+            <img
+              class="footer-logo"
+              src="assets/averon-logo.png"
+              alt="Averon logo"
+            />
+            <p>Driven by innovation, shaped for bright and welcoming school experiences.</p>
+          </div>
+          <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#events">News</a>
+            <a href="#contact">Admissions</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
