@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120" fill="none">
+  <rect x="1" y="1" width="418" height="118" rx="22" stroke="#0f172a" stroke-opacity="0.12"/>
+  <path d="M76 28c0 20-16 32-28 36-12-4-28-16-28-36v-8c11-1 21-5 28-10 7 5 17 9 28 10v8Z" stroke="#0f172a" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M59 44h-8m4-4v8" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  <text x="114" y="55" fill="#0f172a" font-size="22" font-weight="650" font-family="system-ui, -apple-system, Segoe UI, Inter, Arial">
+    SilverShield
+  </text>
+  <text x="114" y="80" fill="#0f172a" fill-opacity="0.64" font-size="14" letter-spacing="2" font-family="system-ui, -apple-system, Segoe UI, Inter, Arial">
+    HEALTH INSURANCE
+  </text>
+</svg>
+

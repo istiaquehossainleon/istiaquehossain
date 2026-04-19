@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120" fill="none">
+  <rect x="1" y="1" width="418" height="118" rx="22" stroke="#0f172a" stroke-opacity="0.12"/>
+  <path d="M46 78V52c0-10 8-18 18-18h0c10 0 18 8 18 18v26" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M56 78V56m16 22V56" stroke="#0f172a" stroke-width="2" stroke-linecap="round" stroke-opacity="0.6"/>
+  <text x="114" y="55" fill="#0f172a" font-size="22" font-weight="650" font-family="system-ui, -apple-system, Segoe UI, Inter, Arial">
+    Guardian Family
+  </text>
+  <text x="114" y="80" fill="#0f172a" fill-opacity="0.64" font-size="14" letter-spacing="2" font-family="system-ui, -apple-system, Segoe UI, Inter, Arial">
+    ASSURANCE
+  </text>
+</svg>
+
